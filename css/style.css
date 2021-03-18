@@ -11,7 +11,7 @@
     clear: both;
 }
 
-*:not(body,header, html){
+*:not(body,header, html, main){
     border: 1px solid grey;
     border-radius: 10px; 
 }
@@ -31,3 +31,20 @@ body{
     height: 300px;
 }
 /* /header */
+
+/* main */
+#titolo_contenuto{
+    height: 80px;
+}
+
+.section_left, .section_right{
+    height: 400px;
+    width: 20%;
+    float: left;
+}
+
+#content{
+    height: 400px;
+    width: 60%;
+    float: left;
+}
