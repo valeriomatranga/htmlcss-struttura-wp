@@ -14,6 +14,7 @@
 *:not(body,header, html, main){
     border: 1px solid grey;
     border-radius: 10px; 
+    margin-top: 10px;
 }
 /* /utility */
 
@@ -46,5 +47,17 @@ body{
 #content{
     height: 400px;
     width: 60%;
+    float: left;
+}
+
+.img{
+    height: 150px;
+    margin: 10px;
+}
+/* /main */
+
+footer{
+    height: 50px;
+    width: 100%;
     float: left;
 }
