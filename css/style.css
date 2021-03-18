@@ -1,0 +1,33 @@
+/* utility */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+    content: 0;
+    display: table;
+    clear: both;
+}
+
+*:not(body,header, html){
+    border: 1px solid grey;
+    border-radius: 10px; 
+}
+/* /utility */
+
+body{
+    width: 90%;
+    margin: auto;
+}
+
+/* header */
+#logo, #navigazione{
+    height: 50px;
+}
+
+#copertina{
+    height: 300px;
+}
+/* /header */
